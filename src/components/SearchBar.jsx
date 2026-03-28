@@ -5,7 +5,7 @@ function SearchBar({ search, setSearch }) {
       placeholder="Search knowledge..."
       value={search}
       onChange={(e) => setSearch(e.target.value)}
-      aria-label="Search Knowledge"
+      aria-label="Search.."
       className="search"
     />
   );
